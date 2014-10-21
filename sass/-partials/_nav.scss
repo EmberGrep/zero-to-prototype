@@ -1,0 +1,31 @@
+header {
+	@include row();
+
+	h1 {
+		@include column(6);
+	}
+}
+
+header nav {
+	@extend .tabs;
+	@extend .tabs.pill;
+
+	margin-top: $gutter-in-px * 2;
+
+	ul {
+		@include column(6);
+		@extend .tab-nav;
+		border: none;
+
+		li a {
+			text-shadow: none;
+			@include border-radius($button-radius);
+			border: none;
+			background: none;
+
+			&.active {
+				background: #555;
+			}
+		}
+	}
+}
