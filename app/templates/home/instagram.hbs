@@ -1,0 +1,13 @@
+<div class="instagram-wall">
+	<h2>Fan Pics</h2>
+
+	<ul>
+		{{#each record in this}}
+			<li>
+				<a {{ bind-attr href=record.relativeLinkUrl }}>
+					<img {{ bind-attr src=record.relativeImageUrl alt=record.caption }}>
+				</a>
+			</li>
+		{{/each}}
+	</ul>
+</div>

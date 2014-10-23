@@ -1,0 +1,11 @@
+.instagram-wall {
+	li {
+		@include fancytiles(4,4,2);
+		padding: 2px;
+
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}

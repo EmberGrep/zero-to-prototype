@@ -1,0 +1,18 @@
+.home-page {
+	.top, .bottom {
+		@include clearfix;
+	}
+
+	.bottom {
+		@include row;
+
+		.instagram-wall, .twitter-widgeth, .news-widget {
+			@include column(4);
+
+			h2 {
+				font-family: 'Coda';
+				text-align: center;
+			}
+		}
+	}
+}
