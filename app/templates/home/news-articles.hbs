@@ -1,0 +1,16 @@
+<div class="news-widget">
+	<h2>Recent Posts</h2>
+
+	{{#each newsArticle in this}}
+		<div class="news-item">
+			<h3>
+				{{newsArticle.title}} -
+				<span class="date">{{newsArticle.publishDate}}</span>
+			</h3>
+
+			<p>{{newsArticle.abstract}}</p>
+
+			<a href="#">read more</a>
+		</div>
+	{{/each}}
+</div>

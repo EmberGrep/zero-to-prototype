@@ -1,0 +1,16 @@
+.news-widget {
+	.news-item {
+		margin: 5px auto;
+		padding: 5px;
+
+		@include border-radius(4px);
+		background: rgba(255, 255, 255, 0.2);
+		color: $header-font-color;
+
+		a {
+			color: #F3852E;
+			display: block;
+			text-align: right;
+		}
+	}
+}
