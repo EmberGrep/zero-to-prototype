@@ -1,0 +1,51 @@
+.news {
+	@include row();
+
+	h2 {
+		@include column(8, center);
+
+		a {
+			color: $header-font-color;
+		}
+
+		a:before {
+			content: "#{match($entypo-icons, 'icon-left-open-mini')}";
+			font-family: '#{$icons}';
+			position: absolute;
+			left: -20px;
+		}
+
+		a.active:before{
+			content: none;
+		}
+	}
+
+	.news-index, .news-article {
+		@include column(8, center);
+	}
+
+	.news-item {
+		margin: 5px auto;
+		padding: 5px;
+
+		@include border-radius(4px);
+		background: rgba(255, 255, 255, 0.2);
+		color: $header-font-color;
+
+		a {
+			color: #F3852E;
+			display: block;
+			text-align: right;
+		}
+
+		span.date {
+			color: darken($header-font-color, 10%);
+			font-size: ms(1);
+			float: right;
+		}
+	}
+
+	.news-article p.date {
+		text-align: right;
+	}
+}
