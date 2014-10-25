@@ -63,12 +63,12 @@ export default [
 		id: 11,
 		title: 'Now Kyle Quit the Band',
 		body: 'Truffaut Kickstarter mumblecore bespoke, polaroid 8-bit DIY selvage tote bag gluten-free 90\'s four loko Schlitz lo-fi. VHS swag banh mi, distillery church-key Blue Bottle Banksy DIY selvage High Life authentic mumblecore ennui gluten-free squid. Whatever typewriter beard ennui put a bird on it. 90\'s Cosby sweater flannel mumblecore, mustache viral jean shorts narwhal skateboard PBR you probably haven\'t heard of them keytar beard. Keffiyeh sustainable banjo Vice, crucifix Brooklyn bitters. Wayfarers 8-bit dreamcatcher literally, tousled next level Marfa 3 wolf moon PBR&B asymmetrical roof party pour-over butcher. 8-bit synth yr, lomo cardigan Intelligentsia meggings narwhal forage pug single-origin coffee fanny pack slow-carb hashtag flannel.',
-		publishDate: '2014-07-15'
+		publishDate: '2014-10-15'
 	},
 	{
 		id: 12,
 		title: 'Now We\'re Back Together Again',
 		body: 'McSweeney\'s 3 wolf moon flannel, YOLO roof party cardigan raw denim mustache banjo gentrify vegan +1 semiotics ugh. 90\'s hashtag semiotics, cardigan authentic art party Brooklyn street art church-key sriracha letterpress organic tote bag slow-carb. Banh mi crucifix letterpress, Truffaut bespoke brunch locavore. Brooklyn drinking vinegar asymmetrical, swag mlkshk skateboard mustache letterpress umami locavore messenger bag keytar tousled. Dreamcatcher Odd Future Tumblr Cosby sweater meh. Intelligentsia yr beard vegan, jean shorts fingerstache whatever roof party tofu disrupt Marfa. Hashtag tattooed chia Pitchfork, 90\'s pug raw denim readymade Austin iPhone.',
-		publishDate: '2014-07-21'
+		publishDate: '2014-10-21'
 	}
 ];
