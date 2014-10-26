@@ -1,0 +1,13 @@
+.ticker-container {
+	width: 100%;
+	height: 24px;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	background: darken($global-bg-color, 10%);
+
+	.ticker {
+		white-space: nowrap;
+		position: absolute;
+	}
+}

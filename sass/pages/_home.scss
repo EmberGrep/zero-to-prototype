@@ -6,7 +6,11 @@
 	.bottom {
 		@include row;
 
-		.instagram-wall, .twitter-widgeth, .news-widget {
+		.instagram-wall {
+			margin-left: 0;
+		}
+
+		.instagram-wall, .twitter-widget, .news-widget {
 			@include column(4);
 
 			h2 {
