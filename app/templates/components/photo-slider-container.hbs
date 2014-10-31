@@ -1,0 +1,5 @@
+<button class="prev" {{action 'previous'}}><i class="icon-left-open"></i></button>
+{{#each photo in photos}}
+	{{slider-photo photoUrl=photo photos=photos selectedIndex=currentSelectedIndex}}
+{{/each}}
+<button class="next" {{action 'next'}}><i class="icon-right-open"></i></button>

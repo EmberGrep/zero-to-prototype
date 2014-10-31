@@ -1,0 +1,55 @@
+.photo-slider-container {
+	@include row();
+	padding: 0;
+
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 300px;
+
+	max-width: 100%;
+
+	button {
+		background: none;
+		border: none;
+		cursor: pointer;
+
+		color: rgba(200, 200, 200, 0.2);
+		font-size: ms(5);
+		line-height: 300px;
+
+		position: absolute;
+		top: 0;
+		z-index: 2;
+
+		&:focus {
+			outline: none;
+		}
+
+		&:hover {
+			color: rgba(200, 200, 200, 0.8);
+		}
+
+		&.prev {
+			left: -40px;
+		}
+
+		&.next {
+			right: -40px;
+		}
+	}
+
+	.slider-photo {
+		width: 25%;
+		display: block;
+		float: left;
+		padding: 0;
+		margin: 0;
+
+		&.selected {
+			border: white 2px solid;
+		}
+	}
+
+
+}
