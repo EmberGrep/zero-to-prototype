@@ -1724,13 +1724,12 @@ header nav ul li a.active { background: #555; }
 .ticker-container { width: 100%; height: 24px; overflow: hidden; position: fixed; bottom: 0; background: #202122; }
 .ticker-container .ticker { white-space: nowrap; position: absolute; }
 
-.photo-slider-container { width: 100%; max-width: 1180px; min-width: 320px; margin: 0 auto; padding-left: 20px; padding-right: 20px; padding: 0; position: relative; margin: auto; width: 1000px; height: 300px; max-width: 100%; }
+.photo-slider-container { width: 100%; max-width: 1180px; min-width: 320px; margin: 0 auto; padding-left: 20px; padding-right: 20px; padding: 0; position: relative; margin: 40px auto; width: 1000px; height: 300px; overflow: hidden; max-width: 100%; }
 .photo-slider-container > *:first-child { margin-left: 0; }
 @media only screen and (max-width: 767px) { .photo-slider-container { width: auto; min-width: 0; margin-left: 0; margin-right: 0; } }
-.photo-slider-container button { background: none; border: none; cursor: pointer; color: rgba(200, 200, 200, 0.2); font-size: 48px; line-height: 300px; position: absolute; top: 0; z-index: 2; }
+.photo-slider-container button { background: none; border: none; cursor: pointer; color: rgba(200, 200, 200, 0.8); font-size: 48px; line-height: 300px; position: absolute; top: 0; z-index: 2; }
 .photo-slider-container button:focus { outline: none; }
-.photo-slider-container button:hover { color: rgba(200, 200, 200, 0.8); }
-.photo-slider-container button.prev { left: -40px; }
-.photo-slider-container button.next { right: -40px; }
-.photo-slider-container .slider-photo { width: 100%; height: 100%; position: absolute; top: 0; left: 0; visibility: hidden; opacity: 0; transition: visibility 0s linear 0.5s, opacity 0.5s linear; }
-.photo-slider-container .slider-photo.selected { visibility: visible; opacity: 1; transition-delay: 0s; }
+.photo-slider-container button:hover { color: #c8c8c8; }
+.photo-slider-container button.prev { left: 0; }
+.photo-slider-container button.next { right: 0; }
+.photo-slider-container .slider-photo { width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
