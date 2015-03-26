@@ -1,0 +1,9 @@
+<button class="play-pause" {{action 'togglePause'}}>
+  {{#if isPaused}}
+    Play
+  {{else}}
+    Pause
+  {{/if}}
+</button>
+
+{{input type="range" min=0 max=100 value=volume}}
