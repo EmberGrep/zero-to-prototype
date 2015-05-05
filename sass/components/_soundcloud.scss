@@ -1,0 +1,59 @@
+.soundcloud-tracklist {
+  @include column(4);
+  list-style-type: none;
+
+  li.soundcloud-track-item {
+    padding: 4px 10px;
+    border: 1px #555 solid;
+    border-top: none;
+    cursor: pointer;
+
+    &:first-of-type {
+      border-top: 1px #555 solid;
+      @include border-top-radius(8px);
+    }
+
+    &:last-of-type {
+      @include border-bottom-radius(8px);
+    }
+
+    .play-status i {
+      @extend i.icon-play;
+
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .artist::after {
+      content: " - ";
+    }
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+
+      .play-status i {
+        opacity: 1;
+      }
+    }
+
+    &.selected {
+      background: rgba(255, 255, 255, 0.2);
+    }
+  }
+}
+
+.soundcloud-controls {
+  button {
+    @include font-size($larger);
+    color: #ccc;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    :active {
+      background: none;
+      outline: none;
+    }
+  }
+}
